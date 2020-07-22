@@ -3,17 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!--Import Google Icon Font-->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <!--Import materialize.css-->
-     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-     <link rel="stylesheet" href="css/portfolio.css">
-    <title>Portfoli</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/about.css">
+    <title>Contact us</title>
     <style>
-        .footer-footer{
-            position: absolute;
-            z-index: -1;
+        .team-banner{
+            padding-top:70px;
         }
+        
+        .main-heading{
+            width: 320px;
+            height:auto;
+        }
+        .copyright-svg{
+            z-index:-1;position:absolute;margin:0px 0px -100px -320px;width:1200px;
+        }
+        @media only screen and (max-width: 600px) {
+        /* For mobile phones: */
+            .break{
+                height:50px;
+            }
+            .copyright-svg{
+                /* display: none; */
+                margin-left:-900px;
+                margin-bottom:-150px;
+            }    
+            
+            .page-footer>.container>.row>.col>ul{
+                text-align:left !important;
+                /* border:1px dashed red; */
+                width:100%;
+
+            }
+            
+          
+            
+
+        }
+        
     </style>
 </head>
 <body>
@@ -30,11 +60,11 @@
                             </a>
                             <a href="#" id="nav-toggle" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                             <ul class="right hide-on-med-and-down">
-                                <li><a href="about.html">About</a></li>
-                                <li style="border-bottom:2px solid orange;"><a href="#">Portfolio</a></li>
+                                <li ><a href="about.html">About</a></li>
+                                <li><a href="portfolio.html">Portfolio</a></li>
                                 <li><a href="team.html">Team</a></li>
-                                <li><a href="mobile.html">Blog</a></li>
-                                <li><a href="contact.html">Contact us</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li style="border-bottom:2px solid orange;"><a href="#">Contact us</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -50,82 +80,59 @@
         </header>
 
         <section>
-            <!-- banner -->
-                <div class="banner">
+            <!-- team banner -->
+                <div class="team-banner">
                     <div class="container">
-                        <br><br>
                         <div class="row">
                             <div class="col s12 center">
-                                <h4> <b> Project Name </b> </h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quidem, repellendus praesentium aliquam voluptates, pariatur amet ea reprehenderit corporis fugiat eveniet perferendis, autem animi tempora nam? Dolorem temporibus culpa voluptatem. 
-                                </p>
+                                <h3> <b>WHY NOT SAY HELLO.</b> </h3>
+                                
+                                <div class="container">
+                                    <p>
+                                        Write us an e-mail via the form, or just send us an email directly at hello@ideate.com
+                                    </p>
+                                </div>
+                                
                             </div>
-                        </div>
-                        <div class="row" style="border:2px solid orange;border-radius:10px;">
-                            <div class="col s12 banner-img" style="margin-top:-30px;"></div>
                         </div>
                     </div>
                 </div>
-            <!-- banner -->
+            <!-- team banner  -->
         </section>
         <div class="break"></div>
-
+        <!-- <div class=" row" style="border:2px dashed red; height:400px;"> -->
+       
         <section>
-            <!-- project description -->
-            <div class="project-description">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s12 m3">
-                            <div class="row">
-                                <div class="col s12 blue-text text-lighten-3">
-                                    <h5>Cient</h5>
-                                    <h6>Sobtech.ng</h6>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col s12 blue-text text-lighten-3">
-                                    <h5>Project Type</h5>
-                                    <h6>Ui/Ux</h6>
-                                </div>
-                            </div>
-                            
+           
+            <div class="" style="margin:20px 0px 0px -120px;z-index:-2;position:absolute;width:300px; height:300px;border-radius:100%;border:1px solid #62D7CA;"></div>
+            <!-- teams sections -->
+            
+                <div class=" container row">
+                    <div class="col s12 m4"></div>
+                    <div class="col s12 white m4 z-depth-2" style="height:450px;border-radius:4px;border:1px solid #62D7CA;">
+                        <div class="col s12">
+                            <h4>Send us message</h4>
                         </div>
-                        <div class="co s12 m9 ">
-                            <div class="row">
-                                <div class="">
-                                    <article style="line-height:30px;">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-                                    </article>
-                                </div>
-                            </div>
-                            
+                        <div class="input-field col s12">
+                            <input  id="first_name"   type="text" class="validate">
+                            <label for="first_name">Full name</label>
+                        </div> 
+                        <div class="input-field col s12">
+                            <input  id="first_name"   type="text" class="validate">
+                            <label for="first_name">Email</label>
+                        </div> 
+                        <div class="input-field col s12">
+                            <textarea id="textarea2" class="materialize-textarea" rows="5" data-length="120"></textarea>
+                            <label for="textarea2">Write your message</label>
                         </div>
+                        <div class="col s12">
+                            <button class="btn-flat center white-text" style="border-radius:5px;margin:50px 0px;background:#62D7CA;">Submit</button>
+                        </div>                               
                     </div>
+                    <div class="col s12 m4"></div>
                 </div>
-            </div>
-            <!-- projects descript -->
+            <!-- teams section -->
         </section>
-
-        <section>
-            <!-- project snippets -->
-            <div class="project-snippets">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s12 m4 green snip-1">
-                            <!-- <img src="assets/252f7772907227.5c03fd215788f.png" width="100%" height="350px" alt=""> -->
-                        </div>
-                        <div class="co s12 m8 red ">
-                            <div class="snip-2"></div>
-                            <!-- <img src="assets/46f83872907227.5c1c38502e7d8@2x.png" width="" height="150px" alt=""> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- project snippets -->
-        </section>
-
-        
         <div class="break"></div>
         <div class="break"></div>
         <footer class="page-footer white">
@@ -177,7 +184,7 @@
                 <div class="">
                     <div class="container">
                         <div class="container">
-                            <img  src="assets/Path 1982.svg" style="z-index:-1;position:absolute;margin:0px 0px -100px -320px;width:1200px;" alt="">
+                            <img class="copyright-svg"  src="assets/Path 1982.svg"  alt="">
                         </div>
                     </div>
                     <!-- <div class="container">
@@ -189,7 +196,6 @@
         </footer>
 
     </div>
-
      <!--JavaScript at end of body for optimized loading-->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <script type="text/javascript" src="js/materialize.min.js"></script>

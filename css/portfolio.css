@@ -26,7 +26,10 @@ flex-direction: column;
 .main {
 flex: 1 0 auto;
 }
-
+.footer-footer{
+    position: absolute;
+    z-index: -1;
+}
 #logo-img{
     width: 108px;
     height: 88px;
@@ -56,10 +59,10 @@ ul>li>a:hover{
     color:black !important;
 }
 
-.banner-card{
-    /* min-height:440px; */
-    /* border:2px dashed pink; */
-}
+/* .banner-card{
+    min-height:440px;
+    border:2px dashed pink;
+} */
 
 .banner-card>.child-1{
     /* position: absolute;

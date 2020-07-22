@@ -13,6 +13,7 @@
 }
 body{
     width:100% !important;
+    max-width: 100% !important;
     min-height:700px;
     background:url("../assets/Repeat Grid 19.svg");
 }
@@ -22,6 +23,8 @@ display: flex;
 min-height: 100vh;
 flex-direction: column;
 }
+
+
 
 .main {
 flex: 1 0 auto;
@@ -71,10 +74,10 @@ ul>li>a:hover{
 }
 .banner-sec-2{
     position: absolute;
-    z-index: -1;
+    z-index: -2;
     left:-209px;
-    width:527px;
-    height:527px;
+    width:427px;
+    height:427px;
     margin-top:250px;
     background:var(--orange-color);
     border-radius:100%;
@@ -156,17 +159,17 @@ ul>li>a:hover{
     border:1px solid var(--orange-color);
     opacity:0.4;
 }
-.prj-left{
-    /* border:4px solid black; */
-}
+/* .prj-left{
+    border:4px solid black;
+} */
 .prj-right{
     /* border:4px solid black; */
     margin-top:-95px;
     padding-left:65px !important;
 }
-.prj-right>.projects-card{
-    /* border:2px solid green; */
-}
+/* .prj-right>.projects-card{
+    border:2px solid green;
+} */
 .prj-right>.projects-card>.child-1{
     border:1px solid var(--lightblueAccent-color);
 }
@@ -203,12 +206,13 @@ ul>li>a:hover{
 }
 
 .line{
-top: 470px;
-left: 1140px;
-width: 226px;
-/* height: 87px; */
-transform: matrix(0.98, 0.17, -0.17, 0.98, 0, 0);
-border: 8px solid var(--unnamed-color-ff6600);
-border: 8px solid #FF6600;
-opacity: 1;
+    top: 470px;
+    left: 1140px;
+    width: 226px;
+    /* height: 87px; */
+    transform: matrix(0.98, 0.17, -0.17, 0.98, 0, 0);
+    border: 8px solid var(--unnamed-color-ff6600);
+    border: 8px solid #FF6600;
+    opacity: 1;
 }
+

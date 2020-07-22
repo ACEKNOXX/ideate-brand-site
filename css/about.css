@@ -23,6 +23,8 @@ min-height: 100vh;
 flex-direction: column;
 }
 
+
+
 .main {
 flex: 1 0 auto;
 }
@@ -73,7 +75,7 @@ ul>li>a:hover{
 }
 .banner-sec-2{
     position: absolute;
-    z-index: -1;
+    z-index: -2;
     left:-209px;
     width:527px;
     height:527px;
@@ -148,9 +150,9 @@ ul>li>a:hover{
     /* border:2px dashed red; */
     /* background:red; */
 }
-.projects-card{
-    /* border:2px dashed red */
-}
+/* .projects-card{
+    border:2px dashed red
+} */
 .projects-card>.card-panel{
     width:390px;
     height:400px;

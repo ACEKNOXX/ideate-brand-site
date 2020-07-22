@@ -4,18 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!--Import Google Icon Font-->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <!--Import materialize.css-->
-     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-     <link rel="stylesheet" href="css/style.css">
-     <style>
-       
-     </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/style.css">
     <title>Home</title>
+    <style>
+       
+        .copyright-svg{
+            z-index:-1;position:absolute;margin:0px 0px -100px -320px;width:1200px;
+        }
+        @media only screen and (max-width: 600px) {
+        /* For mobile phones: */
+            .break{
+                height:50px;
+            }
+            .copyright-svg{
+                /* display: none; */
+                margin-left:-900px;
+                marigin-bottom:-150px;
+            }    
+            .projects-card>.child-1{
+                
+                margin:35px auto 0px auto;
+                width:280px;
+                height:290px;
+                /* border:1px dashed red; */
+
+            
+            }
+            .projects-card>.child-2{
+                width:320px;
+                height:370px;
+            }
+            
+            .page-footer>.container>.row>.col>ul{
+                text-align:left !important;
+                /* border:1px dashed red; */
+                width:100%;
+
+            }
+            .prj-right{
+                    /* border:4px solid black; */
+                margin-top:0px;
+                padding-left:0px !important;
+            }
+            .project-card-info{
+                margin-top:-50px;;
+                /* border:1px dashed red; */
+            }
+        }
+            
+    </style>
 </head>
 <body>
     
-    <div class="wrappper main">
+    <div class="wrappper main" style="max-width:100% !important;">
         <header>
         <!-- header section -->
                 <nav class="transparent" >
@@ -38,10 +82,11 @@
                 </nav>
                 
                 <ul class="sidenav" id="mobile-demo">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">Javascript</a></li>
-                    <li><a href="mobile.html">Mobile</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
                 </ul>
         <!-- header section -->
         </header>
@@ -53,13 +98,13 @@
                         <div class="container center">
                             <br><br><br><br><br><br>
                             <h3>
-                                <!-- <b> -->
+                                <b>
                                     We Design and Build <br> 
-                                Solutions for your 
+                                    Solutions for your 
                                 <span class="blue-text text-lighten-4">Business
                                     <!-- <div class="line"></div> -->
                                 </span>
-                                <!-- </b> -->
+                                </b>
                             </h3>
                             <div class="row">
                                 <div class="col s12">
@@ -132,7 +177,11 @@
                     <div class="col s12">
                         <p class="pre-heading">PROJECTS</p>
                         <div class="main-heading"> 
-                            <h3>Get a taste of what we do best</h3> 
+                            <h3>
+                                <b>
+                                    Get a taste of what we do best
+                                </b>
+                            </h3> 
                         </div>
                     </div>
                 </div>
@@ -292,32 +341,18 @@
                             <!-- <div class=" child-2 teal" style=""></div> -->
                         </div>
                         <div class="project-card-info">
-                            <!-- <div class="project-info-heading">
-                                <h6>Avo Rewards</h6>
-                                <div class="hr"></div>
-                            </div>
-                            <div class="">
-                                <p>
-                                    we designed a whole new mobile app for bamba 
-                                    Rewards from the scratch aligning the user
-                                    experience and expectations with the brand concept.
-                                </p>
-                            </div> -->
+                          
                         </div>
                     </div>
                     <div class="col s12 m6 prj-right">
-                        <!-- <div class="projects-card"> -->
-                            <!-- <div class="child-1"></div> -->
-                            <!-- <img class=" child-2" src="assets/prince-akachi-LWkFHEGpleE-unsplash.png" alt=""> -->
-                            <!-- <div class=" child-2 teal" style=""></div> -->
-                        <!-- </div> -->
+                      
                         <div class="project-card-info">
                             <div class="project-info-heading">
-                                <h3>
+                                <h4>
                                     <b>
                                     Working hard, playing hard, connecting hard.
                                     </b>
-                                </h3>
+                                </h4>
                                 <div class="hr" style="border:1px solid teal;"></div>
                             </div>
                             <div class="">
@@ -382,7 +417,7 @@
                 <div class="">
                     <div class="container">
                         <div class="container">
-                            <img src="assets/Path 1982.svg" style="margin-bottom:-100px;" width="1200" alt="">
+                            <img class="copyright-svg"  src="assets/Path 1982.svg" style="" alt="">
                         </div>
                     </div>
                     <!-- <div class="container">
