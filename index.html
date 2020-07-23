@@ -8,21 +8,41 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="css/style.css">
-    <title>Home</title>
+    <link rel="icon" href="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595118073/ID8_lmo8lb.png" sizes="35x35" type="image/png">
+    <title>Ideate | Creative Agency</title>
     <style>
        
         .copyright-svg{
             z-index:-1;position:absolute;margin:0px 0px -100px -320px;width:1200px;
         }
+        .banner-sec-1{
+            /* border:2px dashed green; */
+            margin-top:20px;
+            padding-top:30px;
+            background:url("assets/right-hero-dots.svg");
+            background-size:cover;
+        }
+        .banner-img-col{
+            background: url("");
+        }
         @media only screen and (max-width: 600px) {
         /* For mobile phones: */
+            .banner-img-col{
+                display:none;
+            }
             .break{
                 height:50px;
+            }
+            .companies{
+                margin-top:-20px;
+            }
+            .extra-section-child-1{
+                height:600px;
             }
             .copyright-svg{
                 /* display: none; */
                 margin-left:-900px;
-                marigin-bottom:-150px;
+                margin-bottom:-150px;
             }    
             .projects-card>.child-1{
                 
@@ -62,7 +82,7 @@
     <div class="wrappper main" style="max-width:100% !important;">
         <header>
         <!-- header section -->
-                <nav class="transparent" >
+                <nav class="white" >
                     <div class="nav-wrapper  container">
                         <a href="index.html" class="brand-logo">
                             <div id="logo-img">
@@ -74,7 +94,7 @@
                         <ul class="right hide-on-med-and-down">
                             <li><a href="about.html">About</a></li>
                             <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="collapsible.html">Team</a></li>
+                            <li><a href="team.html">Team</a></li>
                             <li><a href="mobile.html">Blog</a></li>
                             <li><a href="mobile.html">Contact us</a></li>
                         </ul>
@@ -94,33 +114,36 @@
         <section>
         <!-- banner section -->
                 <div class="banner">
-                    <div class="banner-sec-1  ">
-                        <div class="container center">
-                            <br><br><br><br><br><br>
-                            <h3>
-                                <b>
-                                    We Design and Build <br> 
-                                    Solutions for your 
-                                <span class="blue-text text-lighten-4">Business
-                                    <!-- <div class="line"></div> -->
-                                </span>
-                                </b>
-                            </h3>
-                            <div class="row">
-                                <div class="col s12">
-                                    <p>
-                                        we define strategies & communications that you will need to transform your business 
-                                        <br> experience and improve people's lives. By digging into business problems, 
-                                        <br> we analyse, define and solve them with the help of creative design and development.
-                                    </p>
+                    <div class="banner-sec-1">
+                        <div class="row">
+                            <div class="col s12 m5">
+                                <div class="grey lighten-5 ">
+                                    <div class="container">
+                                        <h4 class="" style="line-height:50px;font-weight:200;padding:16px;">
+                                            <!-- <b> -->
+                                                We design and build solutions for your business
+                                            <!-- </b> -->
+                                        </h4>
+                                        <p style="padding:16px;">
+                                            we define strategies & communications that you will need to transform your business experiences and improve people’s lives. By digging into business problems, we analyse, define and solve them with the help of creative design and development.
+                                        </p>
+                                        
+                                        <a href="https://chat.whatsapp.com/BsVa1on5UdPIQg77FbFzJY" class="btn-large btn-flat center white-text  deep-orange darken-4" style="margin-bottom:-20px;">
+                                            hire us !
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="center">
-                                <a href="#" id="start-project-btn" class="btn-flat center white-text teal ">Start A Project</a>
+                            <div class="col s12 m1">
                             </div>
-                            
+                            <div class="col s12 m6 ">
+                                <div class="banner-img-col">
+                                    <img style="border-radius:15px;margin-top:-30px;" src="https://images.unsplash.com/photo-1573165301123-3241ba3816b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80" width="100%" height="450px" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
+                   
                     <div class="banner-sec-2"></div>
                     <!-- <div class="banner-sec-3"></div> -->
                 </div>
@@ -129,7 +152,7 @@
         
         <section>
         <!-- conpanies seciton -->
-            <div class="companies">
+            <div class="companies" >
                 <div class="container row">
                     
                     <div class="col s12 m3">
@@ -142,16 +165,17 @@
 
                     <div class="col s12 m3">
                         <div class="card-panel white">
-                            <span class="black-text">
-                                <h6>Company 2</h6>
+                            <span class="image">
+                                
+                                <img src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595541089/newlogo_fgtyoo.png" width="170px" >
                             </span>
                         </div>
                     </div>
 
                     <div class="col s12 m3">
                         <div class="card-panel white">
-                            <span class="black-text">
-                                <h6>Company 3</h6>
+                            <span class="image">
+                               <img src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595541608/Untitled_design_6_utiula.png" width="150px">
                             </span>
                         </div>
                     </div>
@@ -192,17 +216,17 @@
                     <div class="col s12 m6 prj-left">
                         <div class="projects-card">
                             <div class="child-1"></div>
-                            <img class=" child-2" src="assets/modern-bussiness.png" alt="">
+                            <img class=" child-2" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595538827/1_qyiitu.png" alt="">
                             <!-- <div class=" child-2 teal" style=""></div> -->
                         </div>
                         <div class="project-card-info">
                             <div class="project-info-heading">
-                                <h6>Avo Rewards</h6>
+                                <h6> Id8 Mobile App Development</h6>
                                 <div class="hr"></div>
                             </div>
                             <div class="">
                                 <p>
-                                    we designed a whole new mobile app for bamba 
+                                    We designed a all new mobile app for a Digital Bank company. 
                                     Rewards from the scratch aligning the user
                                     experience and expectations with the brand concept.
                                 </p>
@@ -212,19 +236,17 @@
                     <div class="col s12 m6 prj-right">
                         <div class="projects-card">
                             <div class="child-1"></div>
-                            <img class=" child-2" src="assets/prince-akachi-LWkFHEGpleE-unsplash.png" alt="">
+                            <img class=" child-2" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595538827/2_le4yrl.png" alt="">
                             <!-- <div class=" child-2 teal" style=""></div> -->
                         </div>
                         <div class="project-card-info">
                             <div class="project-info-heading">
-                                <h6>Avo Rewards</h6>
+                                <h6>Id8 Branding </h6>
                                 <div class="hr"></div>
                             </div>
                             <div class="">
                                 <p>
-                                    we designed a whole new mobile app for bamba 
-                                    Rewards from the scratch aligning the user
-                                    experience and expectations with the brand concept.
+                                   We are into all round Branding and printing of customized hampers, shirts, gifts and more .
                                 </p>
                             </div>
                         </div>
@@ -238,19 +260,18 @@
                     <div class="col s12 m6 prj-left">
                         <div class="projects-card">
                             <div class="child-1"></div>
-                            <img class=" child-2" src="assets/modern-bussiness.png" alt="">
+                            <img class=" child-2" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595538827/3_sg13l3.png" alt="">
                             <!-- <div class=" child-2 teal" style=""></div> -->
                         </div>
                         <div class="project-card-info">
                             <div class="project-info-heading">
-                                <h6>Avo Rewards</h6>
+                                <h6>Motion Graphics Design</h6>
                                 <div class="hr"></div>
                             </div>
                             <div class="">
                                 <p>
-                                    we designed a whole new mobile app for bamba 
-                                    Rewards from the scratch aligning the user
-                                    experience and expectations with the brand concept.
+                                    Motion graphics are suitable for your campaigns. With nice illustrations and copies, 
+                                    it effectively communicates with your audience— and that's why we are here for you..
                                 </p>
                             </div>
                         </div>
@@ -258,19 +279,17 @@
                     <div class="col s12 m6 prj-right">
                         <div class="projects-card">
                             <div class="child-1"></div>
-                            <img class=" child-2" src="assets/prince-akachi-LWkFHEGpleE-unsplash.png" alt="">
+                            <img class=" child-2" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595539995/Untitled_design_5_dme4yx.png" alt="">
                             <!-- <div class=" child-2 teal" style=""></div> -->
                         </div>
                         <div class="project-card-info">
                             <div class="project-info-heading">
-                                <h6>Avo Rewards</h6>
+                                <h6>Photography</h6>
                                 <div class="hr"></div>
                             </div>
                             <div class="">
                                 <p>
-                                    we designed a whole new mobile app for bamba 
-                                    Rewards from the scratch aligning the user
-                                    experience and expectations with the brand concept.
+                                    Portrayal is key to your business and project purposes. We are here to help you with amazing photographic visuals..
                                 </p>
                             </div>
                         </div>
@@ -284,19 +303,17 @@
                     <div class="col s12 m6 prj-left">
                         <div class="projects-card">
                             <div class="child-1"></div>
-                            <img class=" child-2" src="assets/modern-bussiness.png" alt="">
+                            <img class=" child-2" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595539795/Untitled_design_2_i489lk.png" alt="">
                             <!-- <div class=" child-2 teal" style=""></div> -->
                         </div>
                         <div class="project-card-info">
                             <div class="project-info-heading">
-                                <h6>Avo Rewards</h6>
+                                <h6>Web Development</h6>
                                 <div class="hr"></div>
                             </div>
                             <div class="">
                                 <p>
-                                    we designed a whole new mobile app for bamba 
-                                    Rewards from the scratch aligning the user
-                                    experience and expectations with the brand concept.
+                                    We create websites with appealing designs that gives amazing business use case and user experiences.
                                 </p>
                             </div>
                         </div>
@@ -304,19 +321,17 @@
                     <div class="col s12 m6 prj-right">
                         <div class="projects-card">
                             <div class="child-1"></div>
-                            <img class=" child-2" src="assets/prince-akachi-LWkFHEGpleE-unsplash.png" alt="">
+                            <img class=" child-2" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595539807/Untitled_design_4_blrirh.png" alt="">
                             <!-- <div class=" child-2 teal" style=""></div> -->
                         </div>
                         <div class="project-card-info">
                             <div class="project-info-heading">
-                                <h6>Avo Rewards</h6>
+                                <h6>Social Media Marketing</h6>
                                 <div class="hr"></div>
                             </div>
                             <div class="">
                                 <p>
-                                    we designed a whole new mobile app for bamba 
-                                    Rewards from the scratch aligning the user
-                                    experience and expectations with the brand concept.
+                                    We run your campaigns and generate desired leads for your Businesses. We make it look easy.
                                 </p>
                             </div>
                         </div>
@@ -366,8 +381,6 @@
             </div>
             <!-- extra section -->
         </section>
-        <div class="break"></div>
-        <div class="break"></div>
         <footer class="page-footer white">
             <div class="container  ">
                 <div class="row">
