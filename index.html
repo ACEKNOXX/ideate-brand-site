@@ -14,15 +14,31 @@
         .copyright-svg{
             z-index:-1;position:absolute;margin:0px 0px -100px -320px;width:1200px;
         }
+        .banner-sec-1{
+            /* border:2px dashed green; */
+            margin-top:20px;
+            padding-top:30px;
+            background:url("assets/right-hero-dots.svg");
+            background-size:cover;
+        }
+        .banner-img-col{
+            background: url("");
+        }
         @media only screen and (max-width: 600px) {
         /* For mobile phones: */
             .break{
                 height:50px;
             }
+            .companies{
+                padding-top:100px;
+            }
+            .extra-section-child-1{
+                height:600px;
+            }
             .copyright-svg{
                 /* display: none; */
                 margin-left:-900px;
-                marigin-bottom:-150px;
+                margin-bottom:-150px;
             }    
             .projects-card>.child-1{
                 
@@ -62,7 +78,7 @@
     <div class="wrappper main" style="max-width:100% !important;">
         <header>
         <!-- header section -->
-                <nav class="transparent" >
+                <nav class="white" >
                     <div class="nav-wrapper  container">
                         <a href="index.html" class="brand-logo">
                             <div id="logo-img">
@@ -94,33 +110,36 @@
         <section>
         <!-- banner section -->
                 <div class="banner">
-                    <div class="banner-sec-1  ">
-                        <div class="container center">
-                            <br><br><br><br><br><br>
-                            <h3>
-                                <b>
-                                    We Design and Build <br> 
-                                    Solutions for your 
-                                <span class="blue-text text-lighten-4">Business
-                                    <!-- <div class="line"></div> -->
-                                </span>
-                                </b>
-                            </h3>
-                            <div class="row">
-                                <div class="col s12">
-                                    <p>
-                                        we define strategies & communications that you will need to transform your business 
-                                        <br> experience and improve people's lives. By digging into business problems, 
-                                        <br> we analyse, define and solve them with the help of creative design and development.
-                                    </p>
+                    <div class="banner-sec-1">
+                        <div class="row">
+                            <div class="col s12 m5">
+                                <div class="grey lighten-5 ">
+                                    <div class="container">
+                                        <h4 class="" style="line-height:50px;font-weight:200;padding:16px;">
+                                            <!-- <b> -->
+                                                Distance is not a limiting factor! Enrol today in our online financial literacy programs specially curated for you
+                                            <!-- </b> -->
+                                        </h4>
+                                        <p style="padding:16px;">
+                                            Connect with thousands of Money Africa users steadily building their financial literacy bricks to becoming financially free.
+                                        </p>
+                                        
+                                        <a href="#" class="btn-large btn-flat center white-text  deep-orange darken-4" style="margin-bottom:-20px;">
+                                            hire us !
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="center">
-                                <a href="#" id="start-project-btn" class="btn-flat center white-text teal ">Start A Project</a>
+                            <div class="col s12 m1">
                             </div>
-                            
+                            <div class="col s12 m6 ">
+                                <div class="banner-img-col">
+                                    <img src="https://images.unsplash.com/photo-1573165301123-3241ba3816b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80" width="100%" height="450px" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
+                   
                     <div class="banner-sec-2"></div>
                     <!-- <div class="banner-sec-3"></div> -->
                 </div>
@@ -129,7 +148,7 @@
         
         <section>
         <!-- conpanies seciton -->
-            <div class="companies">
+            <div class="companies" >
                 <div class="container row">
                     
                     <div class="col s12 m3">
@@ -366,8 +385,6 @@
             </div>
             <!-- extra section -->
         </section>
-        <div class="break"></div>
-        <div class="break"></div>
         <footer class="page-footer white">
             <div class="container  ">
                 <div class="row">
