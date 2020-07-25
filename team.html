@@ -24,8 +24,34 @@
         .copyright-svg{
             z-index:-1;position:absolute;margin:0px 0px -100px -320px;width:1200px;
         }
+        .teams-img{
+            margin-left:25px;
+            width:370px !important;
+            height:460px !important;
+            border-radius:10px;
+        }
+        .prj-right>.projects-card>div>.teams-img{
+            /* border:2px dashed red; */
+            margin-left:60px;
+        }
+        .banner-sec-1{
+            /* border:2px dashed green; */
+            margin-top:150px;
+            padding-top:30px;
+            background:url("assets/right-hero-dots.svg");
+            background-size:cover;
+        }
         @media only screen and (max-width: 600px) {
         /* For mobile phones: */
+            .teams-img{
+                margin-left:0px;
+                width:270px !important;
+                height:360px !important;
+            }
+            .prj-right>.projects-card>div>.teams-img{
+            /* border:2px dashed red; */
+                margin-left:30px;
+            }
             .break{
                 height:50px;
             }
@@ -89,7 +115,7 @@
                             <a href="#" id="nav-toggle" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                             <ul class="right hide-on-med-and-down">
                                 <li ><a href="about.html">About</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="projects.html">Portfolio</a></li>
                                 <li style="border-bottom:2px solid orange;"><a href="#">Team</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="contact.html">Contact us</a></li>
@@ -99,7 +125,7 @@
                     
                     <ul class="sidenav" id="mobile-demo">
                         <li><a href="about.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="projects.html">Portfolio</a></li>
                         <li><a href="team.html">Team</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="contact.html">Contact us</a></li>
@@ -108,47 +134,61 @@
         </header>
 
         <section>
-            <!-- team banner -->
-                <div class="team-banner">
-                    <div class="">
-                        <div class="row">
-                            <div class="col s12 center">
-                                <h3> <b>Bound Together,Boundless.</b> </h3>
-                                
-                                <div class="container">
-                                    <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae sapiente, id rerum tempore molestiae minus culpa quam amet laudantium fugit unde fugiat error corrupti velit sint architecto illo optio suscipit!
-                                    </p>
+            <!-- banner section -->
+                    <div class="banner">
+                        <div class="banner-sec-1" style="">
+                            <div class="row">
+                                <div class="col s12">
+                                    <div class="grey lighten-5 ">
+                                        <div class="container">
+                                            <h2 class="" style="line-height:50px;font-weight:200;padding:8px;">
+                                                <!-- <b> -->
+                                                    <b>The Team</b>
+                                                   
+                                                <!-- </b> -->
+                                                </h2>
+                                            <p style="padding:16px;">
+                                                we define strategies & communications that you will need to transform your business experiences and improve people’s lives. By digging into business problems, we analyse, define and solve them with the help of creative design and development.
+                                            </p>
+                                            
+                                            <a href="https://chat.whatsapp.com/BsVa1on5UdPIQg77FbFzJY" class="btn-large btn-flat center white-text  deep-orange darken-4" style="margin-bottom:-20px;">
+                                                Follow us ! @ideate8
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                
+                               
                             </div>
                         </div>
+                       
+                        <div class="banner-sec-2"></div>
                     </div>
-                </div>
-            <!-- team banner  -->
-        </section>
+            <!-- banner section -->
+            </section>
+            
         <div class="break"></div>
         <!-- <div class=" row" style="border:2px dashed red; height:400px;"> -->
        
         <div class="" style="margin:1600px 0px 0px -120px;z-index:-1;position:absolute;width:300px; height:300px;border-radius:100%;border:1px solid #62D7CA;"></div>
-        <section>
+        <section style="margin-top:-250px;">
             
             <!-- teams sections -->
                 <div class="team-member">
                     <div class="container row ">
-                        <div class="col s12" style="padding-left:29px;">
+                        <div class="col s12" style="padding-left:10px;">
                             <small>
-                                <p class="pre-heading  blue-text text-lighten-3" >PROJECTS</p>
+                                <p class="pre-heading  blue-text text-lighten-3" ></p>
                             </small>
                             <div class="main-heading"> 
                                 <h4>
                                     <b>
-                                    Get a taste of what we do best 
+                                        <!-- Meet the creatives -->
                                     </b>
                                 </h4>
                             </div>
                         </div>
                     </div>
+                    
                     <div class="break"></div>
                     <div class="container row" >
     
@@ -156,107 +196,133 @@
                         <div class="col s12 m6 prj-left">
                             <div class="projects-card">
                                 <div class="" style="padding:0px !important;">
-                                    <img style="margin-left:25px;width:300px;height:370px;border-radius:10px;" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595536048/DSC_3698-01_qqxojn.jpg" alt="">
-                                    
+                                    <img class="teams-img" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595536048/DSC_3698-01_qqxojn.jpg" alt="">
                                 </div>
-                                <div class="container">
+                                <div class="container left" style="padding-left:30px;">
                                     <h6>
-                                        <b>Abdulraheem Abdulsobur</b>
+                                        <b>Samuel Okediji</b>
                                     </h6>
-                                    <p>product designer</p>
+                                    <p>Software Engineer</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col s12 m6 prj-right">
                             <div class="projects-card">
                                 <div class="" style="padding:0px !important;">
-                                    <img style="margin-left:25px;width:300px;height:370px;border-radius:10px;" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595536048/DSC_3698-01_qqxojn.jpg" alt="">
+                                    <img class="teams-img"  src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595536048/DSC_3698-01_qqxojn.jpg" alt="">
                                 </div>
                                 <div class="container">
                                     <h6>
-                                        <b>Abdulraheem Abdulsobur</b>
+                                        <b>Toyyib Mustapha</b>
                                     </h6>
-                                    <p>product designer</p>
+                                    <p>Software Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="break"></div>
+                    <div class="container row" >
+    
+    
+                        <div class="col s12 m6 prj-left">
+                            <div class="projects-card">
+                                <div class="" style="padding:0px !important;">
+                                    <img class="teams-img" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595536048/DSC_3698-01_qqxojn.jpg" alt="">
+                                </div>
+                                <div class="container left" style="padding-left:30px;">
+                                    <h6>
+                                        <b>Samuel Okediji</b>
+                                    </h6>
+                                    <p>Software Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 prj-right">
+                            <div class="projects-card">
+                                <div class="" style="padding:0px !important;">
+                                    <img class="teams-img"  src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595536048/DSC_3698-01_qqxojn.jpg" alt="">
+                                </div>
+                                <div class="container">
+                                    <h6>
+                                        <b>Toyyib Mustapha</b>
+                                    </h6>
+                                    <p>Software Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="break"></div>
+                    <div class="container row" >
+    
+    
+                        <div class="col s12 m6 prj-left">
+                            <div class="projects-card">
+                                <div class="" style="padding:0px !important;">
+                                    <img class="teams-img" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595536048/DSC_3698-01_qqxojn.jpg" alt="">
+                                </div>
+                                <div class="container left" style="padding-left:30px;">
+                                    <h6>
+                                        <b>Samuel Okediji</b>
+                                    </h6>
+                                    <p>Software Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 prj-right">
+                            <div class="projects-card">
+                                <div class="" style="padding:0px !important;">
+                                    <img class="teams-img"  src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595536048/DSC_3698-01_qqxojn.jpg" alt="">
+                                </div>
+                                <div class="container">
+                                    <h6>
+                                        <b>Toyyib Mustapha</b>
+                                    </h6>
+                                    <p>Software Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="break"></div>
+                    <div class="container row" >
+    
+    
+                        <div class="col s12 m6 prj-left">
+                            <div class="projects-card">
+                                <div class="" style="padding:0px !important;">
+                                    <img class="teams-img" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595536048/DSC_3698-01_qqxojn.jpg" alt="">
+                                </div>
+                                <div class="container left" style="padding-left:30px;">
+                                    <h6>
+                                        <b>Samuel Okediji</b>
+                                    </h6>
+                                    <p>Software Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 prj-right">
+                            <div class="projects-card">
+                                <div class="" style="padding:0px !important;">
+                                    <img class="teams-img"  src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595536048/DSC_3698-01_qqxojn.jpg" alt="">
+                                </div>
+                                <div class="container">
+                                    <h6>
+                                        <b>Toyyib Mustapha</b>
+                                    </h6>
+                                    <p>Software Engineer</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                   
                 </div>
-
-                <div class="break"></div>
-                <div class="container row" >
-
-
-                    <div class="col s12 m6 prj-left">
-                        <div class="projects-card">
-                            <div class="" style="padding:0px !important;">
-                                <img style="margin-left:25px;width:300px;height:370px;border-radius:10px;" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595536048/DSC_3698-01_qqxojn.jpg" alt="">
-                                
-                            </div>
-                            <div class="container">
-                                <h6>
-                                    <b>Abdulraheem Abdulsobur</b>
-                                </h6>
-                                <p>product designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m6 prj-right">
-                        <div class="projects-card">
-                            <div class="" style="padding:0px !important;">
-                                <img style="margin-left:25px;width:300px;height:370px;border-radius:10px;" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595536048/DSC_3698-01_qqxojn.jpg" alt="">
-                            </div>
-                            <div class="container">
-                                <h6>
-                                    <b>Abdulraheem Abdulsobur</b>
-                                </h6>
-                                <p>product designer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="break"></div>
-                <div class="container row" >
-
-
-                    <div class="col s12 m6 prj-left">
-                        <div class="projects-card">
-                            <div class="" style="padding:0px !important;">
-                                <img style="margin-left:25px;width:300px;height:370px;border-radius:10px;" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595536048/DSC_3698-01_qqxojn.jpg" alt="">
-                                
-                            </div>
-                            <div class="container">
-                                <h6>
-                                    <b>Abdulraheem Abdulsobur</b>
-                                </h6>
-                                <p>product designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m6 prj-right">
-                        <div class="projects-card">
-                            <div class="" style="padding:0px !important;">
-                                <img style="margin-left:25px;width:300px;height:370px;border-radius:10px;" src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1595536048/DSC_3698-01_qqxojn.jpg" alt="">
-                            </div>
-                            <div class="container">
-                                <h6>
-                                    <b>Abdulraheem Abdulsobur</b>
-                                </h6>
-                                <p>product designer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
               
             </div>
             <!-- teams section -->
         </section>
 
-        <div class="break"></div>
         <div class="break"></div>
         <footer class="page-footer white">
             <div class="container  ">
