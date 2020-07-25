@@ -82,7 +82,7 @@ ul>li>a:hover{
     border-radius:10px;
     /* border:2px dashed red; */
     margin-left:0px !important;
-    background:url('../assets/tran-mau-tri-tam-tZnbakTUcTI-unsplash@2x.png');
+    background:url('https://res.cloudinary.com/unitech-global-resource/image/upload/v1595537868/nkem_jwryf6.png');
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -92,11 +92,14 @@ ul>li>a:hover{
     /* border:2px dashed red; */
 }
 .snip-1{
-    background:url("../assets/252f7772907227.5c03fd215788f.png");
-    height:450px;
-    background-repeat:no-repeat;
+    width:100%;
+    height:550px;
+    border-radius:10px;
+    /* border:2px dashed red; */
+    margin-left:0px !important;
+    background:url('https://res.cloudinary.com/unitech-global-resource/image/upload/v1595537874/egs_vch7qj.png');
+    background-repeat: no-repeat;
     background-size:cover;
-}
 .snip-2{
     /* background:pink; */
     /* width:90%; */
